@@ -1,0 +1,1210 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ECOSPHERA
+            CONSULTORES</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon"
+            href="assets/img/fav.ico">
+        <script src="https://kit.fontawesome.com/703bfa748b.js"
+            crossorigin="anonymous"></script>
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/slicknav.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+        <link rel="stylesheet" href="assets/css/gijgo.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/animated-headline.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <style>
+        .slider-container {
+          /* width: 500px; */
+          margin: 0 auto;
+          position: relative;
+        }
+        
+        .slider {
+          display: flex;
+          flex-wrap: wrap; /* Permite que los elementos se muevan hacia abajo */
+          width: 100%;
+          overflow: hidden;
+        }
+        
+        .slide {
+          width: 100%;
+          flex-shrink: 0;
+          text-align: center;
+          background-color: #ffffff;
+          padding: 20px;
+          font-size: 20px;
+          justify-content: center;
+          opacity: 0;
+          transition: opacity 0.5s ease-in-out;
+          flex-wrap: wrap;
+        }
+        
+        .slider .slide:first-child {
+          opacity: 1;
+        }
+        
+        .slider-navigation {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+        }
+        
+        .prev-button,
+        .next-button {
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          margin: 0 10px;
+          cursor: pointer;
+        }
+        
+        .slider-dots {
+          display: flex;
+        }
+        
+        .dot {
+          width: 10px;
+          height: 10px;
+          background-color: #aaa;
+          border-radius: 50%;
+          margin: 0 5px;
+          cursor: pointer;
+        }
+        
+        .dot.active {
+          background-color: #333;
+        }
+        
+        .imageSliding {
+          width: 10em; /* Para asegurar que la imagen no se desborde */
+          height: auto;
+          object-fit: contain;
+        }
+        
+        /* Media Query para pantallas móviles */
+        @media (max-width: 767px) {
+          .slide {
+            padding: 10px; /* Ajusta el padding para pantallas más pequeñas */
+            font-size: 16px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+          }
+        
+          .imageSliding {
+          width: 9em; /* Para asegurar que la imagen no se desborde */
+          height: auto;
+          object-fit: contain;
+        }
+        }
+        
+        .modal-content{
+            border-radius: 0.5em;
+        }
+
+        .modal {
+  
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Aplica el desenfoque */
+}
+.video-areaa {
+padding: 200px 0px; 
+background: url(assets/img/gallery/cerrar-brote-suelo.jpg) no-repeat center center fixed;
+position: relative;
+background-size: cover;
+z-index: 1;
+}
+
+.video-areaa:after {
+position: absolute;
+background: rgba(0, 0, 0, .7);
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+content: "";
+z-index: -1;
+opacity: .7;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.video-area-text h2 {
+    color: #fff;
+    font-size: 40px;
+}
+        </style>
+    <body>
+        <!-- ? Preloader Start -->
+        <div id="preloader-active">
+            <div
+                class="preloader d-flex align-items-center justify-content-center">
+                <div class="preloader-inner position-relative">
+                    <div class="preloader-circle"></div>
+                    <div class="preloader-img pere-text">
+                        <img src="assets/img/logoPreLoader.png" alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Preloader Start -->
+        <header>
+            <!-- Header Start -->
+            <div class="header-area">
+                <div class="main-header ">
+                    <div class="header-bottom  header-sticky">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <!-- Logo -->
+                                <div class="col-xl-2 col-lg-2">
+                                    <div class="logo">
+                                        <a href="index.html"><img
+                                                src="assets/img/logo-horizontal.png"
+                                                height="60" alt></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10">
+                                    <div
+                                        class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                        <!-- Main-menu -->
+                                        <div class="main-menu d-none d-lg-block">
+                                            <nav>
+                                                <ul id="navigation">
+                                                    <li><a href="#home">Inicio</a></li>
+                                                    <li><a href="#about-us">¿Quiénes
+                                                            somos?</a></li>
+                                                    <li><a href="#clients">Clientes</a></li>
+                                                    <li><a href="#services">Servicios</a></li>
+                                                    <li><a href="#gallery">Galeria</a></li>
+
+                                                    <li><a href="#contacto">Contacto</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <!-- Header-btn -->
+                                        <div
+                                            class="header-right-btn d-none d-lg-block ml-20">
+                                            <a href="http://web.whatsapp.com/send?phone=+525520773134&text=Hola..."
+                                                class="btn header-btn">
+                                                WhatsApp
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Mobile Menu -->
+                                <div class="col-12">
+                                    <div class="mobile_menu d-block d-lg-none"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+        </header>
+        <main>
+
+            <!-- slider Area Start-->
+            <section id="home">
+                <div class="slider-area position-relative">
+                    <div class="slider-active dot-style">
+                        <!-- Single Slider -->
+                        <div
+                            class="single-slider hero-overly slider-height slider-bg2 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                        <div class="hero__caption">
+                                            <h1 data-animation="fadeInUp"
+                                                data-delay=".2s">ECOSPHERA
+                                                CONSULTORES</h1>
+                                            <p data-animation="fadeInUp"
+                                                data-delay=".4s">Ofrecemos la
+                                                mejor
+                                                asistencia en <br>servicios de
+                                                consultoria ambiental.</p>
+                                            <!-- Hero-btn -->
+                                            <div class="hero__btn">
+                                                <a href="http://web.whatsapp.com/send?phone=+525520773134&text=Hola..."
+                                                    class="hero-btn mb-10"
+                                                    data-animation="fadeInUp"
+                                                    data-delay=".8s">Contáctanos</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                        <div class="hero__caption">
+                                            <h1 data-animation="fadeInUp"
+                                                data-delay=".2s">Estrategias
+                                                sostenibles </h1>
+                                            <p data-animation="fadeInUp"
+                                                data-delay=".4s">y socialmente
+                                                responsables.
+                                            </p>
+                                            <!-- Hero-btn -->
+                                            <div class="hero__btn">
+                                                <a href="industries.html"
+                                                    class="hero-btn mb-10"
+                                                    data-animation="fadeInUp"
+                                                    data-delay=".8s">Contáctanos</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Slider -->
+
+                        <!-- Single Slider -->
+                        <div
+                            class="single-slider hero-overly slider-height slider-bg3 d-flex align-items-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
+                                        <div class="hero__caption">
+                                            <h1 data-animation="fadeInUp"
+                                                data-delay=".2s">Gestoría
+                                                ambiental</h1>
+                                            <p data-animation="fadeInUp"
+                                                data-delay=".4s">Asesoría legal
+                                                e
+                                                industrial.</p>
+                                            <!-- Hero-btn -->
+                                            <div class="hero__btn">
+                                                <a href="industries.html"
+                                                    class="hero-btn mb-10"
+                                                    data-animation="fadeInUp"
+                                                    data-delay=".8s">Contáctanos</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--? video_start -->
+                    
+                    <!-- video_end -->
+
+                </div>
+            </section>
+            <!-- slider Area End-->
+            <!--? Visit Our Tailor Start -->
+            <section id="about-us">
+                <div class="visit-tailor-area fix">
+                    <!--Right Contents  -->
+                    <div class="tailor-offers"></div>
+                    <!-- left Contents -->
+                    <div class="tailor-details">
+                        <span style="font-weight: 600;font-size: 2em;">¿Quiénes
+                            Somos?</span>
+                        <h2>Somos una empresa conformada por profesionistas
+                            interdisciplinarios</h2>
+                        <p>cuyo objetivo en común es impulsar
+                            el crecimiento comercial, financiero y productivo de
+                            nuestros clientes, a través de estrategias
+                            sostenibles y
+                            socialmente responsables. Por ello ponemos a su
+                            disposición servicios de gestoría ambiental,
+                            asesoría
+                            legal e industrial, brindando en todo momento
+                            servicios
+                            de profesionales de calidad, apegados a la
+                            normatividad
+                            nacional aplicable.</p>
+                        <div class="footer-tittles">
+                            <p>Consultor</p>
+                            <h2>Ecosphera</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="clients">
+                <section class="home-blog-area pb-padding"
+                    style="margin-top: 5em;">
+                    <div class="container">
+                        <!-- Section Tittle -->
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-lg-9 col-md-11">
+                                <div class="section-tittle text-center mb-90">
+                                    <h2>Nuestros clientes</h2>
+                                    <p>Nuestros clientes nos respaldan, su
+                                        confianza
+                                        en nuestros productos y servicios es
+                                        fundamental para nuestro crecimiento y
+                                        desarrollo continuo. Nos enorgullece
+                                        contar
+                                        con una amplia y leal base de clientes
+                                        que
+                                        nos eligen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="slider-container">
+                                    <div class="slider">
+                                        <div class="slide">
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand1.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand2.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand3.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand4.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand5.png"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand6.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand7.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand8.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand9.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand10.png"
+                                                    alt>
+                                            </div>
+                                            <div>
+                                                <img class="imageSliding"
+                                                    src="/assets/img/brands/brand11.png"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-navigation">
+                                        <button class="btn prev-button">Anterior</button>
+                                        <div class="slider-dots">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                        <button class="btn next-button">Siguiente</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!--? Services Area Start -->
+            <section id="services">
+                <div class="service-area section-padding30">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-11">
+                                <div class="single-cat text-center mb-30">
+                                    <div class="cat-icon">
+                                        <img
+                                            src="assets/img/gallery/services1.png"
+                                            alt>
+                                    </div>
+                                    <div class="cat-cap">
+                                        <h5><a href="#" data-toggle="modal"
+                                                data-target="#myModal">Servicios
+                                                para medio ambiente</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-11">
+                                <div
+                                    class="single-cat text-center mb-30">
+                                    <div class="cat-icon">
+                                        <img
+                                            src="assets/img/gallery/services2.jpg"
+                                            alt>
+                                    </div>
+                                    <div class="cat-cap">
+                                        <h5><a data-toggle="modal"
+                                                data-target="#ProCiv" href="#">Servicios
+                                                para protección
+                                                civil</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-11">
+                                <div class="single-cat text-center mb-30">
+                                    <div class="cat-icon">
+                                        <img
+                                            src="assets/img/gallery/services3.jpg"
+                                            alt>
+                                    </div>
+                                    <div class="cat-cap">
+                                        <h5><a data-toggle="modal"
+                                                data-target="#SegSalud" href="#">Seguridad
+                                                y salud
+                                                ocupacional</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-11">
+                                <div
+                                    class="single-cat text-center mb-30">
+                                    <div class="cat-icon">
+                                        <img
+                                            src="assets/img/gallery/services4.jpg"
+                                            alt>
+                                    </div>
+                                    <div class="cat-cap">
+                                        <h5><a data-toggle="modal"
+                                                data-target="#TramyServ"
+                                                href="#">Trámites,
+                                                gestión y otros
+                                                servicios</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="max-width: 629px;"
+                    role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="myModalLabel">SERVICIOS
+                                PARA MEDIO AMBIENTE</h3>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.3959 7.757C16.4889 7.84988 16.5627 7.96016 16.613 8.08156C16.6633 8.20296 16.6892 8.33309 16.6892 8.4645C16.6892 8.59592 16.6633 8.72605 16.613 8.84744C16.5627 8.96884 16.4889 9.07913 16.3959 9.172L13.4139 12.153L16.0899 14.828C16.2776 15.0156 16.383 15.2701 16.383 15.5355C16.383 15.8009 16.2776 16.0554 16.0899 16.243C15.9023 16.4306 15.6478 16.5361 15.3824 16.5361C15.1171 16.5361 14.8626 16.4306 14.6749 16.243L11.9999 13.567L9.32494 16.243C9.1373 16.4306 8.88281 16.5361 8.61745 16.5361C8.35208 16.5361 8.09759 16.4306 7.90994 16.243C7.7223 16.0554 7.61689 15.8009 7.61689 15.5355C7.61689 15.2701 7.7223 15.0156 7.90994 14.828L10.5859 12.153L7.60394 9.172C7.51103 9.07903 7.43735 8.96866 7.38709 8.84721C7.33683 8.72575 7.31099 8.59559 7.31104 8.46415C7.31108 8.33271 7.33702 8.20256 7.38736 8.08114C7.4377 7.95973 7.51147 7.84941 7.60444 7.7565C7.69742 7.66359 7.80779 7.5899 7.92924 7.53965C8.05069 7.48939 8.18086 7.46355 8.3123 7.46359C8.44374 7.46364 8.57388 7.48957 8.6953 7.53992C8.81672 7.59026 8.92704 7.66403 9.01995 7.757L11.9999 10.74L14.9809 7.758C15.0738 7.66503 15.1841 7.59127 15.3055 7.54094C15.4269 7.49062 15.557 7.46472 15.6884 7.46472C15.8199 7.46472 15.95 7.49062 16.0714 7.54094C16.1928 7.59127 16.3031 7.66403 16.3959 7.757Z"
+                                        fill="black" />
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 1C3.20435 1 2.44129 1.31607 1.87868 1.87868C1.31607 2.44129 1 3.20435 1 4V20C1 20.7956 1.31607 21.5587 1.87868 22.1213C2.44129 22.6839 3.20435 23 4 23H20C20.7956 23 21.5587 22.6839 22.1213 22.1213C22.6839 21.5587 23 20.7956 23 20V4C23 3.20435 22.6839 2.44129 22.1213 1.87868C21.5587 1.31607 20.7956 1 20 1H4ZM20 3H4C3.73478 3 3.48043 3.10536 3.29289 3.29289C3.10536 3.48043 3 3.73478 3 4V20C3 20.2652 3.10536 20.5196 3.29289 20.7071C3.48043 20.8946 3.73478 21 4 21H20C20.2652 21 20.5196 20.8946 20.7071 20.7071C20.8946 20.5196 21 20.2652 21 20V4C21 3.73478 20.8946 3.48043 20.7071 3.29289C20.5196 3.10536 20.2652 3 20 3Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12" style="margin: 1em;">
+                                    <p>✔ Manifestación de impacto ambiental
+                                        Estatal y Federal. <br>
+                                        ✔ Estudio de Riesgo ambiental Estatal y
+                                        Federal (Nivel 0, I,II,III).<br>
+                                        ✔ Elaboración de Programas para la
+                                        Prevención de Accidentes (PPA).<br>
+                                        ✔ Planes de Atención a Emergencias.<br>
+                                        ✔ Informes Preventivos para ASEA,
+                                        SEMARNAT, y Estatal.<br>
+                                        ✔ Evaluaciones de Impacto Social.<br>
+                                        ✔ Registro como Generador de Residuos
+                                        Peligrosos.<br>
+                                        ✔ Registro como Generador de Residuos de
+                                        Manejo Especial.<br>
+                                        ✔ Plan de Manejo de Residuos.<br>
+                                        ✔ Plan de Manejo Eficiente de Agua
+                                        Reducción de Agua.<br>
+                                        ✔ Licencia Ambiental Única (LAU).<br>
+                                        ✔ Cédula de Operación Anual (COA).<br>
+                                        ✔ Licencia de Funcionamiento del Sector
+                                        Hidrocarburos.<br>
+                                        ✔ Cedula de Operación Integral (COI).<br>
+                                        ✔ Licencia de Funcionamiento para
+                                        Fuentes Fijas.<br>
+                                        ✔ Declaratorias Ambientales.<br>
+                                        ✔ Planificación para Certificación de
+                                        Industria Limpia.<br>
+                                        ✔ Dictamen Único de Factibilidad (DUF).</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm"
+                                data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ProCiv" tabindex="-1" role="dialog" 
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="max-width: 629px;"
+                    role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="myModalLabel">PROTECCION
+                                CIVIL</h3>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.3959 7.757C16.4889 7.84988 16.5627 7.96016 16.613 8.08156C16.6633 8.20296 16.6892 8.33309 16.6892 8.4645C16.6892 8.59592 16.6633 8.72605 16.613 8.84744C16.5627 8.96884 16.4889 9.07913 16.3959 9.172L13.4139 12.153L16.0899 14.828C16.2776 15.0156 16.383 15.2701 16.383 15.5355C16.383 15.8009 16.2776 16.0554 16.0899 16.243C15.9023 16.4306 15.6478 16.5361 15.3824 16.5361C15.1171 16.5361 14.8626 16.4306 14.6749 16.243L11.9999 13.567L9.32494 16.243C9.1373 16.4306 8.88281 16.5361 8.61745 16.5361C8.35208 16.5361 8.09759 16.4306 7.90994 16.243C7.7223 16.0554 7.61689 15.8009 7.61689 15.5355C7.61689 15.2701 7.7223 15.0156 7.90994 14.828L10.5859 12.153L7.60394 9.172C7.51103 9.07903 7.43735 8.96866 7.38709 8.84721C7.33683 8.72575 7.31099 8.59559 7.31104 8.46415C7.31108 8.33271 7.33702 8.20256 7.38736 8.08114C7.4377 7.95973 7.51147 7.84941 7.60444 7.7565C7.69742 7.66359 7.80779 7.5899 7.92924 7.53965C8.05069 7.48939 8.18086 7.46355 8.3123 7.46359C8.44374 7.46364 8.57388 7.48957 8.6953 7.53992C8.81672 7.59026 8.92704 7.66403 9.01995 7.757L11.9999 10.74L14.9809 7.758C15.0738 7.66503 15.1841 7.59127 15.3055 7.54094C15.4269 7.49062 15.557 7.46472 15.6884 7.46472C15.8199 7.46472 15.95 7.49062 16.0714 7.54094C16.1928 7.59127 16.3031 7.66403 16.3959 7.757Z"
+                                        fill="black" />
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 1C3.20435 1 2.44129 1.31607 1.87868 1.87868C1.31607 2.44129 1 3.20435 1 4V20C1 20.7956 1.31607 21.5587 1.87868 22.1213C2.44129 22.6839 3.20435 23 4 23H20C20.7956 23 21.5587 22.6839 22.1213 22.1213C22.6839 21.5587 23 20.7956 23 20V4C23 3.20435 22.6839 2.44129 22.1213 1.87868C21.5587 1.31607 20.7956 1 20 1H4ZM20 3H4C3.73478 3 3.48043 3.10536 3.29289 3.29289C3.10536 3.48043 3 3.73478 3 4V20C3 20.2652 3.10536 20.5196 3.29289 20.7071C3.48043 20.8946 3.73478 21 4 21H20C20.2652 21 20.5196 20.8946 20.7071 20.7071C20.8946 20.5196 21 20.2652 21 20V4C21 3.73478 20.8946 3.48043 20.7071 3.29289C20.5196 3.10536 20.2652 3 20 3Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12" style="margin: 1em;">
+                                    <p>✔ Elaboración de Programas Internos y
+                                        Específicos de Protección Civil <br>
+                                        ✔ Planeación, Realización y Evaluación
+                                        de simulacros <br>
+                                        ✔ Elaboración de Procedimientos para
+                                        Actividades Riesgosas <br>
+                                        ✔ Planes de Atención a Emergencias <br>
+                                        ✔ Implementación de lineamientos
+                                        laborales para retorno a instalación,
+                                        Nueva Normalidad COVID-19 <br>
+                                        ✔ Capacitaciones de Primeros Auxilios,
+                                        Evacuación y Combate contra Incendios in
+                                        situ <br>
+                                        ✔ Capacitaciones de Combate contra
+                                        Incendios en campo de capacitación <br>
+                                        ✔ Análisis de Vulnerabilidad y Riesgo
+                                        (AVR) <br>
+                                        ✔ Venta y recarga de extintores <br>
+                                        ✔ Implementación de NOM-003-SEGOB-2011
+                                        (señalización) <br>
+                                        ✔ Venta señalización. <br>
+                                        ✔ Venta de botiquines y equipo para
+                                        respuesta a emergencias.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm"
+                                data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="SegSalud" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="max-width: 629px;"
+                    role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="myModalLabel">SEGURIDAD
+                                Y SALUD OCUPACIONAL</h3>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.3959 7.757C16.4889 7.84988 16.5627 7.96016 16.613 8.08156C16.6633 8.20296 16.6892 8.33309 16.6892 8.4645C16.6892 8.59592 16.6633 8.72605 16.613 8.84744C16.5627 8.96884 16.4889 9.07913 16.3959 9.172L13.4139 12.153L16.0899 14.828C16.2776 15.0156 16.383 15.2701 16.383 15.5355C16.383 15.8009 16.2776 16.0554 16.0899 16.243C15.9023 16.4306 15.6478 16.5361 15.3824 16.5361C15.1171 16.5361 14.8626 16.4306 14.6749 16.243L11.9999 13.567L9.32494 16.243C9.1373 16.4306 8.88281 16.5361 8.61745 16.5361C8.35208 16.5361 8.09759 16.4306 7.90994 16.243C7.7223 16.0554 7.61689 15.8009 7.61689 15.5355C7.61689 15.2701 7.7223 15.0156 7.90994 14.828L10.5859 12.153L7.60394 9.172C7.51103 9.07903 7.43735 8.96866 7.38709 8.84721C7.33683 8.72575 7.31099 8.59559 7.31104 8.46415C7.31108 8.33271 7.33702 8.20256 7.38736 8.08114C7.4377 7.95973 7.51147 7.84941 7.60444 7.7565C7.69742 7.66359 7.80779 7.5899 7.92924 7.53965C8.05069 7.48939 8.18086 7.46355 8.3123 7.46359C8.44374 7.46364 8.57388 7.48957 8.6953 7.53992C8.81672 7.59026 8.92704 7.66403 9.01995 7.757L11.9999 10.74L14.9809 7.758C15.0738 7.66503 15.1841 7.59127 15.3055 7.54094C15.4269 7.49062 15.557 7.46472 15.6884 7.46472C15.8199 7.46472 15.95 7.49062 16.0714 7.54094C16.1928 7.59127 16.3031 7.66403 16.3959 7.757Z"
+                                        fill="black" />
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 1C3.20435 1 2.44129 1.31607 1.87868 1.87868C1.31607 2.44129 1 3.20435 1 4V20C1 20.7956 1.31607 21.5587 1.87868 22.1213C2.44129 22.6839 3.20435 23 4 23H20C20.7956 23 21.5587 22.6839 22.1213 22.1213C22.6839 21.5587 23 20.7956 23 20V4C23 3.20435 22.6839 2.44129 22.1213 1.87868C21.5587 1.31607 20.7956 1 20 1H4ZM20 3H4C3.73478 3 3.48043 3.10536 3.29289 3.29289C3.10536 3.48043 3 3.73478 3 4V20C3 20.2652 3.10536 20.5196 3.29289 20.7071C3.48043 20.8946 3.73478 21 4 21H20C20.2652 21 20.5196 20.8946 20.7071 20.7071C20.8946 20.5196 21 20.2652 21 20V4C21 3.73478 20.8946 3.48043 20.7071 3.29289C20.5196 3.10536 20.2652 3 20 3Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12" style="margin: 1em;">
+                                    <p>
+                                        ✔ Análisis de cumplimiento Normativo
+                                        STPS <br>
+                                        ✔ Elaboración e Implementación de Normas
+                                        de la STPS <br>
+                                        ✔ Programa de Autogestión de Seguridad y
+                                        Salud en el Trabajo (PASST) <br>
+                                        ✔ Manuales y Procedimientos de Seguridad
+                                        y Salud Ocupacional <br>
+                                        ✔ Capacitaciones sobre Normatividad STPS
+                                        <br>
+                                        ✔ Emplazamientos y respuestas a la
+                                        Secretaría <br>
+                                        ✔ Análisis de Riesgo Industrial <br>
+                                        ✔ Atención y seguimiento de visitas STPS
+                                        <br>
+                                        ✔ Dictamen de Recipientes Sujetos a
+                                        Presión <br>
+                                        ✔ Dictamen de instalaciones de Gas L.P.
+                                        <br>
+                                        ✔ Realización de estudios por
+                                        laboratorio <br> acreditado para dar
+                                        cumplimiento a:
+                                        <ul style="margin-left: inherit;">
+                                            <li style="list-style:disc;">Iluminación</li>
+                                            <li style="list-style:disc;">Ruido</li>
+                                            <li style="list-style:disc;">Vibraciones</li>
+                                            <li style="list-style:disc;">Sustancias
+                                                Químicas</li>
+                                            <li style="list-style:disc;">Riesgo
+                                                de Incendios</li>
+                                            <li style="list-style:disc;">Emisiones
+                                                a la atmosfera</li>
+                                            <li style="list-style:disc;">Descarga
+                                                de aguas residuales</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm"
+                                data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="TramyServ" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" style="max-width: 629px;"
+                    role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="myModalLabel">TRÁMITES,
+                                GESTIÓN Y OTROS SERVICIOS</h3>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.3959 7.757C16.4889 7.84988 16.5627 7.96016 16.613 8.08156C16.6633 8.20296 16.6892 8.33309 16.6892 8.4645C16.6892 8.59592 16.6633 8.72605 16.613 8.84744C16.5627 8.96884 16.4889 9.07913 16.3959 9.172L13.4139 12.153L16.0899 14.828C16.2776 15.0156 16.383 15.2701 16.383 15.5355C16.383 15.8009 16.2776 16.0554 16.0899 16.243C15.9023 16.4306 15.6478 16.5361 15.3824 16.5361C15.1171 16.5361 14.8626 16.4306 14.6749 16.243L11.9999 13.567L9.32494 16.243C9.1373 16.4306 8.88281 16.5361 8.61745 16.5361C8.35208 16.5361 8.09759 16.4306 7.90994 16.243C7.7223 16.0554 7.61689 15.8009 7.61689 15.5355C7.61689 15.2701 7.7223 15.0156 7.90994 14.828L10.5859 12.153L7.60394 9.172C7.51103 9.07903 7.43735 8.96866 7.38709 8.84721C7.33683 8.72575 7.31099 8.59559 7.31104 8.46415C7.31108 8.33271 7.33702 8.20256 7.38736 8.08114C7.4377 7.95973 7.51147 7.84941 7.60444 7.7565C7.69742 7.66359 7.80779 7.5899 7.92924 7.53965C8.05069 7.48939 8.18086 7.46355 8.3123 7.46359C8.44374 7.46364 8.57388 7.48957 8.6953 7.53992C8.81672 7.59026 8.92704 7.66403 9.01995 7.757L11.9999 10.74L14.9809 7.758C15.0738 7.66503 15.1841 7.59127 15.3055 7.54094C15.4269 7.49062 15.557 7.46472 15.6884 7.46472C15.8199 7.46472 15.95 7.49062 16.0714 7.54094C16.1928 7.59127 16.3031 7.66403 16.3959 7.757Z"
+                                        fill="black" />
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4 1C3.20435 1 2.44129 1.31607 1.87868 1.87868C1.31607 2.44129 1 3.20435 1 4V20C1 20.7956 1.31607 21.5587 1.87868 22.1213C2.44129 22.6839 3.20435 23 4 23H20C20.7956 23 21.5587 22.6839 22.1213 22.1213C22.6839 21.5587 23 20.7956 23 20V4C23 3.20435 22.6839 2.44129 22.1213 1.87868C21.5587 1.31607 20.7956 1 20 1H4ZM20 3H4C3.73478 3 3.48043 3.10536 3.29289 3.29289C3.10536 3.48043 3 3.73478 3 4V20C3 20.2652 3.10536 20.5196 3.29289 20.7071C3.48043 20.8946 3.73478 21 4 21H20C20.2652 21 20.5196 20.8946 20.7071 20.7071C20.8946 20.5196 21 20.2652 21 20V4C21 3.73478 20.8946 3.48043 20.7071 3.29289C20.5196 3.10536 20.2652 3 20 3Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12" style="margin: 1em;">
+                                    <p>
+                                        ✔ Licencia de Funcionamiento Mercantil
+                                        <br>
+                                        ✔ Licencia de Uso de Suelo <br>
+                                        ✔ Constancias de Alineamiento y Número
+                                        Oficial <br>
+                                        ✔ Cédula Informativa de Zonificación <br>
+                                        ✔ Estudio Geológico <br>
+                                        ✔ Estudio Geofísico <br>
+                                        ✔ Mecánica de Suelos <br>
+                                        ✔ Estudio de Riesgo Geológico <br>
+                                        ✔ Dictamen Estructural <br>
+                                        ✔ Dictamen Eléctrico <br>
+                                        ✔ Fumigaciones <br>
+                                        ✔ Servicios de Sanitización </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-sm"
+                                data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="gallery">
+            <div class="our-cases-area section-padding30" style="padding-top: 0em !important;">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-10 col-lg-10 ">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle text-center mb-20">
+                                <h2>Galeria</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gallery-item">
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/1.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/1.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/2.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/2.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/3.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/3.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/4.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/4.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/5.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/5.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/6.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/6.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/7.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/7.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/8.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/8.jpg);"></div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="assets/img/galeria/9.jpg" class="img-pop-up">
+                                <div class="single-gallery-image" style="background: url(assets/img/galeria/9.jpg);"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="video-areaa" data-stellar-background-ratio="0.6" style="background-position: 0% -108.175px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="video-area-text text-center wow bounceIn" style="visibility: visible; animation-name: bounceIn;">
+                            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=8yo99_T4QZI" class="video-play mfp-iframe"><i style="font-size: 3em;margin-bottom: 1em;" class="fas fa-play"></i></a>
+                            <h2>¿Quieres saber más del medio ambiente?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-10 ">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-20">
+                            <h2>Contactanos</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title">Pongase en contacto con nosotros</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <form class="form-contact contact_form"
+                            action="contact_process.php" method="post"
+                            id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100"
+                                            cols="30" rows="9"
+                                            placeholder="Mensaje" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control"
+                                            type="text"
+                                            placeholder="Nombre" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control"
+                                            type="email"
+                                            placeholder="Correo" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control"
+                                           type="number"
+                                            placeholder="Telefono" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit"
+                                    class="button button-contactForm boxed-btn">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>Tecamac, Estado de México.</h3>
+                                <p>Los Reyes Acozac.</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i
+                                    class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>55-2077-3134</h3>
+                                <p>Horarios: 09:00 A.M. 17.00 P.M</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3>ecospheraservicios@gmail.com</h3>
+                                <p>Disponible</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+            <div class="footer-wrapper">
+                <!-- Footer Start-->
+                <div class="footer-area footer-padding">
+                    <div class="container ">
+                        <div class="row justify-content-between">
+                            <div
+                                class="col-xl-4 col-lg-3 col-md-8 col-sm-8">
+                                <div class="single-footer-caption mb-50">
+                                    <div
+                                        class="single-footer-caption mb-30">
+                                        <!-- logo -->
+                                        <div class="footer-logo mb-35">
+                                            <a href="index.html"><img
+                                                    src="assets/img/logo-horizontal.png" height="60"
+                                                    alt></a>
+                                        </div>
+                                        <div class="footer-tittle">
+                                            <div class="footer-pera">
+                                                <p>Ofrecemos la
+                                                    mejor
+                                                    asistencia en servicios de
+                                                    consultoria ambiental.</p>
+                                            </div>
+                                        </div>
+                                        <!-- social -->
+                                        <div class="footer-social">
+                                            <a href="#"><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a
+                                                href="https://www.facebook.com/"><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i
+                                                    class="fab fa-pinterest-p"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>SERVICIOS</h4>
+                                        <ul>
+                                            <li><a data-target="#myModal" data-toggle="modal" href="#">Servicios para medio ambiente</a></li>
+                                            <li><a data-target="#ProCiv" data-toggle="modal" href="#">Servicios para protección civil</a></li>
+                                            <li><a data-target="#SegSalud" data-toggle="modal" href="#">Seguridad y salud ocupacional</a></li>
+                                            <li><a data-target="#TramyServ" data-toggle="modal" href="#">Trámites, gestión y otros servicios</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>SECRETARIAS</h4>
+                                        <ul>
+                                            <li><a href="https://www.gob.mx/semarnat">SEMARNAT</a></li>
+                                            <li><a href="https://www.gob.mx/asea/">ASEA</a></li>
+                                            <li><a href="https://www.gob.mx/cre">CRE</a></li>
+                                            <li><a href="https://sma.edomex.gob.mx/">SMA</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="footer-tittle">
+                                        <h4>CONTACTENOS</h4>
+                                        <ul>
+                                            <li><a>ecospheraservicios@gmail.com</a></li>
+                                            <li><a>
+                                                Tecamac, Estado de México.</a></li>
+                                            <li><a>Horarios: 09:00 A.M. 17.00 P.M</a></li>
+                                            <li class="number"><a
+                                                    href="#">(55)
+                                                    55-2077-3134
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-bottom area -->
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="footer-border">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-xl-12 ">
+                                    <div
+                                        class="footer-copy-right text-center">
+                                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                            Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                                            | Ecosphera Consultores 
+                                            <div style="visibility: hidden;">
+                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                            </div>
+                                           
+                                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End-->
+            </div>
+        </footer>
+        <!-- Scroll Up -->
+        <div id="back-top">
+            <a title="Go to Top" href="#"> <i
+                    class="fas fa-level-up-alt"></i></a>
+        </div>
+
+        <!-- JS here -->
+
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="./assets/js/popper.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <!-- Jquery Mobile Menu -->
+        <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="./assets/js/animated.headline.js"></script>
+        <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+        <!-- Date Picker -->
+        <script src="./assets/js/gijgo.min.js"></script>
+        <!-- Nice-select, sticky -->
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/jquery.sticky.js"></script>
+        <!-- Progress -->
+        <script src="./assets/js/jquery.barfiller.js"></script>
+
+        <!-- counter , waypoint,Hover Direction -->
+        <script src="./assets/js/jquery.counterup.min.js"></script>
+        <script src="./assets/js/waypoints.min.js"></script>
+        <script src="./assets/js/jquery.countdown.min.js"></script>
+        <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+        <!-- contact js -->
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/jquery.form.js"></script>
+        <script src="./assets/js/jquery.validate.min.js"></script>
+        <script src="./assets/js/mail-script.js"></script>
+        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+        <!-- Jquery Plugins, main Jquery -->
+        <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script>
+            // Variables globales
+var currentSlide = 0;
+var slides = document.getElementsByClassName('slide');
+var dots = document.getElementsByClassName('dot');
+
+// Función para mostrar el slide actual
+function showSlide(index) {
+  // Ocultar todos los slides
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+    slides[i].style.display = 'none';
+  }
+
+  // Desactivar todos los puntos
+  for (var i = 0; i < dots.length; i++) {
+    dots[i].classList.remove('active');
+  }
+
+  // Mostrar el slide actual con animación de fade
+  slides[index].style.display = 'flex';
+  setTimeout(function () {
+    slides[index].style.opacity = 1;
+  }, 100);
+  dots[index].classList.add('active');
+}
+
+
+
+// Función para avanzar al siguiente slide
+function nextSlide() {
+  currentSlide++;
+  if (currentSlide >= slides.length) {
+    currentSlide = 0;
+  }
+  showSlide(currentSlide);
+}
+
+// Función para retroceder al slide anterior
+function prevSlide() {
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = slides.length - 1;
+  }
+  showSlide(currentSlide);
+}
+
+// Función para ir a un slide específico
+function goToSlide(index) {
+  currentSlide = index;
+  showSlide(currentSlide);
+}
+
+// Asignar eventos a los botones y puntos de navegación
+document.getElementsByClassName('prev-button')[0].addEventListener('click', prevSlide);
+document.getElementsByClassName('next-button')[0].addEventListener('click', nextSlide);
+
+for (var i = 0; i < dots.length; i++) {
+  dots[i].addEventListener('click', function() {
+    var index = Array.prototype.indexOf.call(this.parentNode.children, this);
+    goToSlide(index);
+  });
+}
+
+// Mostrar el primer slide al cargar la página
+showSlide(currentSlide);
+
+// Esperamos a que se cargue el documento
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtenemos el formulario por su ID
+    var form = document.getElementById("contactForm");
+    // Obtenemos el botón del formulario por su clase
+    var button = form.querySelector(".button-contactForm");
+
+    // Añadimos un evento de clic al botón
+    button.addEventListener("click", function (event) {
+      // Evitamos que el formulario se envíe automáticamente
+      event.preventDefault();
+
+      // Verificamos si el formulario es válido
+      if (form.checkValidity()) {
+        // El formulario es válido, mostramos SweetAlert
+        Swal.fire({
+          title: "Mensaje enviado",
+          text: "Gracias por tu mensaje.",
+          icon: "success",
+          confirmButtonColor: "#3085d6",
+          confirmButtonText: "Aceptar",
+        }).then((result) => {
+          // Si el usuario hace clic en "Aceptar", recargamos la página
+          if (result.isConfirmed) {
+            window.location.reload();
+          }
+        });
+        // Aquí puedes enviar el formulario o realizar otras acciones después de mostrar SweetAlert
+        // form.submit();
+      } else {
+        // El formulario no es válido, mostramos un mensaje de error
+        Swal.fire({
+          title: "Error",
+          text: "Por favor, completa todos los campos requeridos.",
+          icon: "error",
+          confirmButtonColor: "#3085d6",
+          confirmButtonText: "Aceptar",
+        });
+      }
+    });
+  });
+
+
+        </script>
+    </body>
+</html>
